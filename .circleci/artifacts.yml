@@ -1,6 +1,6 @@
 job_environments:
   common_environment: &common_environment
-    APP_HOSTPATH: test-deimos
+    APP_HOSTPATH: test-proteus
     CONTAINER_PREFIX: planet4-test-proteus
     WP_DB_NAME_PREFIX: planet4-testprot_wordpress
   develop_environment: &develop_environment
