@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-proteus",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
+		"greenpeace/planet4-master-theme": "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
 	},
 	"scripts": {
@@ -11,30 +11,6 @@
 	},
 	"data_from": "international",
 	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/6f6d62ac3e1957f6d264e46bc914b332aaf3598d.zip"
-				}
-			}
-		},
 		{
 			"type": "package",
 			"package": {
