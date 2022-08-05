@@ -4,27 +4,8 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7",
-		"greenpeace/planet4-plugin-medialibrary": "dev-image-archive-sandbox"
-	},
-	"scripts": {
-		"site:custom": []
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-fix-covers-carousel-in-safari",
 	},
 	"data_from": "international",
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/c8226e22dd8d57f79858e3a3d88cb4faedd1f050.zip"
-				}
-			}
-		}
-	]
+	"repositories": []
 }
