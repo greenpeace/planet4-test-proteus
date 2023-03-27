@@ -3,9 +3,34 @@
 	"description": "Greenpeace P4 test-proteus",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-PLANET-6998_apply-new-colors-to-comments-block",
+		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
 	},
 	"data_from": "international",
-	"repositories": []
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": {
+					"installer-paths": {
+						"vendor/plugins/{$name}/": [
+							"type:wordpress-plugin"
+						]
+					}
+				},
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/0ede5de0154985adc1b8c5f2b30f13bb68f50a97.zip"
+				}
+			}
+		}
+	]
 }
