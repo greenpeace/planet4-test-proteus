@@ -1,26 +1,9 @@
 {
-	"name": "greenpeace/planet4-test-proteus",
-	"description": "Greenpeace P4 test-proteus",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-master-theme": "dev-main",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
-	},
-	"data_from": "international",
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/d38480bc6b297aa439ac4c48cc87d778e7ab5ac4.zip"
-				}
-			}
-		}
-	]
+  "name": "greenpeace/planet4-test-proteus",
+  "description": "Greenpeace P4 test-proteus",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-master-theme": "dev-main",
+    "greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
+  }
 }
