@@ -49,7 +49,7 @@ job_environments:
     HELM_RELEASE: planet4-test-proteus
     WP_DB_NAME: planet4-testprot_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-proteus-stateless-develop
-
+    MIN_REPLICA_COUNT: 2
 
 commands:
   approve_job:
